@@ -1,6 +1,6 @@
 .board {
   position: relative;
-  margin-right: 30px;
+  margin-right: 100px;
   width: 300px;
   height: 300px;
   display: grid;
@@ -8,7 +8,14 @@
   grid-template-rows: 1fr 1fr 1fr;
 }
 .lineDefault {
-  display: none;
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
 }
 
 .lineHorizontal {
