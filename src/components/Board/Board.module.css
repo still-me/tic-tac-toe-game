@@ -1,0 +1,81 @@
+.board {
+  position: relative;
+  margin-right: 30px;
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.lineDefault {
+  display: none;
+}
+
+.lineHorizontal {
+  position: absolute;
+  transform: rotate(90deg);
+  top: -89px;
+  left: 147px;
+  width: 6px;
+  height: 277px;
+  background-color: red;
+  border-radius: 6px;
+}
+
+.line012 {
+  composes: lineHorizontal;
+}
+
+.line345 {
+  composes: lineHorizontal;
+  top: 12px;
+}
+
+.line678 {
+  composes: lineHorizontal;
+  top: 111px;
+}
+
+.lineVertical {
+  position: absolute;
+  top: 10px;
+  left: 47px;
+  width: 6px;
+  height: 277px;
+  background-color: red;
+  border-radius: 6px;
+}
+
+.line036 {
+  composes: lineVertical;
+}
+
+.line147 {
+  composes: lineVertical;
+  left: 147px;
+}
+
+.line258 {
+  composes: lineVertical;
+  left: 247px;
+}
+
+.lineCross {
+  position: absolute;
+  transform: rotate(135deg);
+  top: -20px;
+  left: 148px;
+  width: 6px;
+  height: 341px;
+  background-color: red;
+  border-radius: 6px;
+}
+
+.line048 {
+  composes: lineCross;
+}
+
+.line246 {
+  composes: lineCross;
+  transform: rotate(225deg);
+}

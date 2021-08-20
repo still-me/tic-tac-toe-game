@@ -1,0 +1,68 @@
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #614385;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 60px;
+}
+
+.xIcon {
+  width: 80px;
+  fill: bisque;
+}
+.zeroIcon {
+  width: 80px;
+  fill: bisque;
+}
+
+.square:nth-child(1)::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 97px;
+  width: 4px;
+  height: 310px;
+  background-color: rgb(210, 52, 241);
+  border-radius: 6px;
+  pointer-events: none;
+}
+
+.square:nth-child(1)::after {
+  content: '';
+  position: absolute;
+  top: -55px;
+  left: 148px;
+  transform: rotate(90deg);
+  width: 4px;
+  height: 310px;
+  background-color: rgb(210, 52, 241);
+  border-radius: 6px;
+  pointer-events: none;
+}
+
+.square:nth-child(2)::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 197px;
+  width: 4px;
+  height: 310px;
+  background-color: rgb(210, 52, 241);
+  border-radius: 6px;
+  pointer-events: none;
+}
+.square:nth-child(2)::after {
+  content: '';
+  position: absolute;
+  top: 46px;
+  left: 148px;
+  transform: rotate(90deg);
+  width: 4px;
+  height: 310px;
+  background-color: rgb(210, 52, 241);
+  border-radius: 6px;
+  pointer-events: none;
+}

@@ -1,0 +1,73 @@
+.field {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #4568dc;
+  border-radius: 6px;
+  background-color: #4568dc;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.labelSignature {
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.head {
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0px #4568dc, 1px 0 0px #b06ab3, 1px 2px 1px #4568dc,
+    2px 1px 1px #b06ab3, 2px 3px 2px #4568dc, 3px 2px 2px #b06ab3,
+    3px 4px 2px #4568dc, 4px 3px 3px #b06ab3, 4px 5px 3px #4568dc,
+    5px 4px 2px #b06ab3, 5px 6px 2px #4568dc, 6px 5px 2px #b06ab3,
+    6px 7px 1px #4568dc, 7px 6px 1px #b06ab3, 7px 8px 0px #4568dc,
+    8px 7px 0px #b06ab3;
+}
+
+.button {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 200px;
+  padding: 15px 45px;
+  font-family: inherit;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+  background-image: linear-gradient(
+    to right,
+    #4568dc 0%,
+    #b06ab3 51%,
+    #4568dc 100%
+  );
+}
+
+.button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
