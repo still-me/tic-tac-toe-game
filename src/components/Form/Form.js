@@ -33,7 +33,7 @@ export default function Form({ onSubmit }) {
         />
       </label>
       <label>
-        <p className={styles.labelSignature}>Player 1</p>
+        <p className={styles.labelSignature}>Player 2</p>
         <input
           className={styles.field}
           type="text"
